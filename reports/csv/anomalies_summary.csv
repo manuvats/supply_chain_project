@@ -1,0 +1,10 @@
+anomaly_type,count
+anomaly_demand_zscore,117806.0
+anomaly_demand_iqr,628135.0
+anomaly_demand_contextual,532246.0
+anomaly_stockout,723123.0
+anomaly_high_lost_sales,719612.0
+anomaly_revenue_zscore,189296.0
+anomaly_revenue_iqr,692121.0
+anomaly_isolation_forest,361500.0
+total_flagged (score>=2),1173540.0

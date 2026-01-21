@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1768502100469
+current_stage: None
+description: null
+last_updated_timestamp: 1768502100469
+name: demand_forecast_model
+run_id: 93bf2ac6f7b74ff3b79b29ee7a08df17
+run_link: null
+source: file:///C:/Users/Manu/supply_chain_project/mlruns/791745682826337262/93bf2ac6f7b74ff3b79b29ee7a08df17/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Manu/supply_chain_project/mlruns/791745682826337262/93bf2ac6f7b74ff3b79b29ee7a08df17/artifacts/model
+user_id: null
+version: 2

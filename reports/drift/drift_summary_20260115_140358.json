@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-01-15T14:03:28.871748",
+  "reference_rows": 6090000,
+  "current_rows": 910000,
+  "features": {
+    "day_of_week": {
+      "psi": 0.0,
+      "ks_statistic": 0.0,
+      "ks_pvalue": 1.0,
+      "drift_detected": 

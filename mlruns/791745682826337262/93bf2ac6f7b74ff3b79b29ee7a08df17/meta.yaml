@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Manu/supply_chain_project/mlruns/791745682826337262/93bf2ac6f7b74ff3b79b29ee7a08df17/artifacts
+end_time: 1768501112611
+entry_point_name: ''
+experiment_id: '791745682826337262'
+lifecycle_stage: active
+run_id: 93bf2ac6f7b74ff3b79b29ee7a08df17
+run_name: ETS
+run_uuid: 93bf2ac6f7b74ff3b79b29ee7a08df17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768501112030
+status: 3
+tags: []
+user_id: Manu

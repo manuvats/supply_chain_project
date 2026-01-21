@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Manu/supply_chain_project/mlruns/791745682826337262/a2e989a87d45499183be46d927646fbb/artifacts
+end_time: 1768501106559
+entry_point_name: ''
+experiment_id: '791745682826337262'
+lifecycle_stage: active
+run_id: a2e989a87d45499183be46d927646fbb
+run_name: LightGBM
+run_uuid: a2e989a87d45499183be46d927646fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768501073882
+status: 3
+tags: []
+user_id: Manu

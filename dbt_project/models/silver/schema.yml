@@ -1,0 +1,62 @@
+version: 2
+
+models:
+  - name: stg_products
+    description: "Staged products with derived margin fields"
+    columns:
+      - name: sku
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: unit_cost
+        tests:
+          - not_null
+      - name: unit_price
+        tests:
+          - not_null
+      - name: abc_class
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['A', 'B', 'C']
+
+  - name: stg_suppliers
+    description: "Staged suppliers with reliability tiers"
+    columns:
+      - name: supplier_id
+        tests:
+          - unique
+          - not_null
+      - name: reliability_score
+        tests:
+          - not_null
+
+  - name: stg_sales
+    description: "Staged daily sales with date dimensions"
+    columns:
+      - name: date
+        tests:
+          - not_null
+      - name: store_id
+        tests:
+          - not_null
+      - name: sku
+        tests:
+          - not_null
+      - name: units_sold
+        tests:
+          - not_null
+
+  - name: stg_inventory
+    description: "Staged inventory with health flags"
+    columns:
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: location_id
+        tests:
+          - not_null
+      - name: sku
+        tests:
+          - not_null

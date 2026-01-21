@@ -1,0 +1,9 @@
+supply_chain:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'C:/Users/Manu/supply_chain_project/data/warehouse.duckdb'
+      threads: 4
+      extensions:
+        - delta

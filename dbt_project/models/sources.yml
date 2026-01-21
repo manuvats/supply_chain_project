@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw data in Delta Lake format"
+    meta:
+      external_location: "C:/Users/Manu/supply_chain_project/data/bronze/{name}"
+    tables:
+      - name: suppliers
+        description: "Supplier master data"
+      - name: products
+        description: "Product master data"
+      - name: locations
+        description: "Plant, DC, and Store locations"
+      - name: carriers
+        description: "Shipping carriers"
+      - name: supplier_product_map
+        description: "Supplier to product mapping"
+      - name: sales
+        description: "Daily sales transactions"
+      - name: demand_forecasts
+        description: "Weekly demand forecasts"
+      - name: inventory
+        description: "Weekly inventory snapshots"
+      - name: purchase_orders
+        description: "Purchase orders"
+      - name: shipments
+        description: "Shipment records"
+      - name: production_orders
+        description: "Production orders"

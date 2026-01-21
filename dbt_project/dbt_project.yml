@@ -1,0 +1,27 @@
+name: 'supply_chain'
+version: '1.0.0'
+
+profile: 'supply_chain'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  bronze_path: 'C:/Users/Manu/supply_chain_project/data/bronze'
+
+models:
+  supply_chain:
+    silver:
+      +materialized: table
+      +schema: silver
+    gold:
+      +materialized: table
+      +schema: gold
